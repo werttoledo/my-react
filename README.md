@@ -1,36 +1,9 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Claro, aquí tienes la documentación separada en dos actividades y en formato de texto:
 
-## Getting Started
+Actividad 1: Componente Boton
 
-First, run the development server:
+El componente Boton permite crear botones personalizados que muestran el texto que tú elijas y ejecutan una función cuando el usuario hace clic. Puedes utilizar este componente para diferentes acciones, como aceptar o cancelar, y el texto del botón se envía a la función que definas en el componente padre. Además, el botón cuenta con estilos modernos gracias a Tailwind CSS, lo que mejora su apariencia y la experiencia de usuario.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Actividad 2: Componente Mensaje (vistaEffect.jsx)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+El componente Mensaje muestra un campo de texto donde el usuario puede escribir su nombre. Cada vez que el nombre cambia, el componente utiliza el hook useEffect para mostrar el nuevo valor en la consola. En la pantalla, el usuario verá un saludo personalizado que se actualiza automáticamente según lo que escriba en el input. Este componente es útil para practicar el manejo de estados y efectos secundarios en React.
